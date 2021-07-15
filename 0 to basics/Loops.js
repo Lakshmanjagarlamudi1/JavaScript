@@ -21,7 +21,6 @@ var persons = [
 
 //persons.forEach(s=>console.log(s));
 
-
 for(const n of persons){
     console.log(n);
 }
