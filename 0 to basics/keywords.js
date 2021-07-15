@@ -21,7 +21,7 @@
 // lakshman1.subscriptionId()
 // lakshman2.subscriptionId()
 // lakshman3.subscriptionId()
-// console.log()
+// console.log(lakshman.getSubscriberAge())
 // console.log(lakshman1.getSubscriberAge())
 // console.log(lakshman2.getSubscriberAge())
 // console.log(lakshman3.getSubscriberAge())
