@@ -1,7 +1,7 @@
 const Lakshman = {
   firstName: "Lakshmi",
   lastName: "Narayana",
-  mobile: 9381598525,
+  mobile: 8888888888,
   gender: "Male",
   getInfo: function () {
     console.log(`  
