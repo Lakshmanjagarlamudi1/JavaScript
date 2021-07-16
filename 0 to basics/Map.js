@@ -22,3 +22,9 @@ for(let value of Movies.values()) {
 for(let [key,value] of Movies) {
     console.log(`Key is ${key} and Value is ${value}`);
 }
+//let's print all keys and values in other way using "forEach" method
+Movies.forEach((v,k)=> console.log(`Key is ${k} and Value is ${v}`)) // It prints exact same output as line 23
+
+// we can also delete any key using...(See below code...)
+Movies.delete(2);
+console.log(Movies); //Output is Map(4) {1 => "KGF2", 3 => "RRR", 4 => "Valimai", 5 => "Beast"}
