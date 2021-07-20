@@ -6,7 +6,7 @@ var user = {
   state: "Andhra",
   books: [],
   buyBooks: function (bookName) {
-    this.books.push(bookName);
+    return this.books.push(bookName);
   },
   getBooksCount: function () {
     return `${this.firstName} bought ${this.books.length} books`;
